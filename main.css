@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gabarito", sans-serif;
+    cursor: pointer;
+}
+
+body{
+    padding: 20px 30px;
+}
+/* Header Section */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_s2{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: rgba(65, 99, 208, 0.861);
+}
+
+.container_s3{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_s3 span{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container_s3 span:hover{
+    background-color: darkgray;
+    color: #000;
+}
+
+/* Nav Button */
+.buton span{
+    background-color: #2747e7;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 8px;
+}
+
+.buton {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.buton span:hover{
+    background-color: dodgerblue;
+    color: #000;
+}
+
+/* Main section */
+.main{
+ text-align: center;
+ margin-top: 100px;
+}
+
+.main_s1 h2{
+    font-size: 50px; 
+    margin-bottom: 15px;
+}
+
+.main_s1 p{
+    font-size: 13px;
+    color: rgb(53, 49, 49);
+     font-weight: 100;
+     margin-bottom: 14px;
+     line-height: 2;
+}
+
+.main_s2{
+    margin-top: 30px;
+}
+
+.main_s2 span{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.main_s2 .buton{
+    background-color: #fff;
+    color: #000;
+    padding: 7px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.main_s2 span:hover{
+    background-color: darkgray;
+    color: #000;
+}
+.main_s2 .buton:hover{
+    background-color: #462525;
+    color: #fff;
+}
+
+.main_s3 img{
+    margin-top: 70px;
+    border-radius: 30px;
+}
+
+.main_s3 .left{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.main_s3 .right{
+    position: absolute;
+    top: 130%;
+    left: 60%;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+/* Logo Section */
+.logo{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo_s2{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+/* Nav button */
+.button{
+    text-align: center;
+    margin-top: 95px;
+}
+
+.button span{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.button span:hover{
+    background-color: rgb(201, 100, 100);
+}
+
+/* Feature Section */
+.feature{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.feature_s1 h2{
+    font-size: 50px;
+}
+
+.feature_s1 p{
+    margin-top: 20px;
+    color: rgb(88, 84, 84);
+    line-height: 1.5;
+}
+
+.feature_s2{
+    margin-top: 95px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+}
+
+.feature_s3{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.feature_s3 span{
+    background-color: #000;
+    color: #fff;
+    padding: 9px;
+    border-radius: 8px;
+}
+
+.feature_s3 .browse{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.feature_s3 span:hover{
+    background-color: aliceblue;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.feature_s3 .browse:hover{
+    background-color: thistle;
+    color: #000;
+}
+
+/* Product */
+.product{
+    margin-top: 50px;
+    padding: 40px;
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    gap: 100px;
+}
+
+.product_s1{
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+
+.product_s1 span{
+    background-color: #F4B52B;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.product_s1 span:hover{
+    background-color: rgb(129, 102, 66);
+    color: #fff;
+}
+
+.product_s2 h3{
+      font-size: 50px;
+      font-weight: 500;
+      margin-bottom: 15px;
+}
+
+.product_s2 p{
+    font-size: 12px;
+    color: #c1bebe;
+    margin-bottom: 35px;
+}
+
+.product_s3 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+}
+
+.product_s3 p{
+    color: #c1bebe;
+    font-size: 12px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.product_s4 span{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.product_s4 span:hover{
+    background-color: aquamarine;
+    color: #000;
+    box-shadow: 1px 1px 1px 1px aquamarine;
+}
